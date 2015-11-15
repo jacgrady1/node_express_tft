@@ -1,0 +1,43 @@
+<section id="services">
+        <div class="container content-lg">
+            <div class="title-v1">
+                <h2>我们的课程</h2>
+                <!--<p>We do <strong>things</strong> differently company providing key digital services. <br>
+                Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>-->
+            </div>
+
+            <div class="row service-box-v1">
+                <% for(var i=0; i<courses.length; i++) {%>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-block service-block-default">
+                            <i class="icon-custom icon-lg icon-bg-u rounded-x fa fa-lightbulb-o"></i>
+                            <h2 class="heading-md"><a href="/course/<%= courses[i].id %>"> <%= courses[i].name %></a></h2>
+                            <p><%= courses[i].brief %></p>
+                        </div>
+                    </div>
+                <%} %>
+            </div>
+        </div>
+        <div class="parallax-twitter parallaxBg">
+            <div class="container parallax-twitter-in">
+                <div class="margin-bottom-30">
+
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <ul class="list-unstyled owl-twitter-v1">
+                            <% for(var i=0; i<feedbacks.length; i++) {%>
+                            <li class="item">
+                                <p><%= feedbacks[i].content %><p>
+                                    <span><%= feedbacks[i].name %></a></span>
+                                </li>
+                                        <%} %>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </section>

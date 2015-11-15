@@ -1,0 +1,163 @@
+    <!--=== FAQ Page ===-->
+    <div class="container content faq-page">
+
+        <!-- FAQ Content -->
+        <div class="row">
+            <!-- Begin Tab v1 -->
+            <div class="col-md-9">
+                <div class="tab-v1">
+                    <ul class="nav nav-tabs margin-bottom-20">
+                        <li class="active"><a data-toggle="tab" href="#home">课程简介</a></li>
+                        <li><a data-toggle="tab" href="#profile">教师介绍</a></li>
+                        <li><a data-toggle="tab" href="#messages">常见问题</a></li>
+                        <li><a data-toggle="tab" href="#settings">价格方案</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <!-- Tab Content 1 -->
+                        <div id="home" class="tab-pane fade in active">
+                            <div id="accordion-v1" class="panel-group acc-v1">
+
+                                <div class="panel panel-default">
+                                    <div class="tag-box tag-box-v3">
+                                        <div class="heading heading-v1">
+                                            <h2><%= course.name %></h2>
+                                            <p><%= course.description %></p>
+                                        </div>
+
+                                        <div class="row margin-bottom-40">
+
+
+
+
+                                        <hr class="devider devider-db-dotted">
+                                            <div class="row">
+                                                    <div class="col-md-2 col-md-offset-1">
+                                                         <p><span class="dropcap dropcap-bg rounded bg-color-dark">提纲</span></p>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <!-- <h2>{{lecture.name}}</h2> -->
+
+                                                        <ul class="list-unstyled">
+                                                            <% for(var i=0; i<course.lectures.length; i++) {%>
+                                                            <li><i class="fa fa-check color-green"></i> <%= course.lectures[i] %></li>
+                                                             <%} %>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                         </div>
+                                        </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Tab Content 1 -->
+                        <!-- Tab Content 2 -->
+                        <div id="profile" class="tab-pane fade">
+                            <div id="accordion-v2" class="panel-group acc-v1">
+                                <% for(var i=0; i<course.teachers.length; i++) {%>
+                                    <div class="panel panel-default">
+                                        <div class="panel-collapse collapse in" id="collapse-v2-One">
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img class="img-responsive" src="<%= course.teachers[i].picture %>" alt="" style="width: 175px; height: 175px; max-height:175px;max-width:175px;">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h2><%= course.teachers[i].name %></h2>
+                                                        <ul class="list-unstyled">
+
+                                                            <li><i class="fa fa-check color-green"></i> <%= course.teachers[i].description %></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <%} %>
+
+                            </div>
+                        </div>
+                        <!-- Tab Content 2 -->
+
+                        <!-- Tab Content 3 -->
+                        <div id="messages" class="tab-pane fade">
+                            <div id="accordion-v3" class="panel-group acc-v1">
+                                <% for(var i=0; i<course.questions.length; i++) {%>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                            <a href="#<%= course.questions[i].title %>" data-parent="#accordion-v3" data-toggle="collapse" class="accordion-toggle">
+                                                <%= course.questions[i].title %>
+                                            </a>
+                                            </h4>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="<%= course.questions[i].title %>">
+                                            <div class="panel-body">
+                                                <%= course.questions[i].answer %>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <%} %>
+                            </div>
+                        </div>
+                        <!-- Tab Content 3 -->
+
+                        <!-- Tab Content 4 -->
+                        <div id="settings" class="tab-pane fade">
+                            <div id="accordion-v4" class="panel-group acc-v1">
+                                <div class="panel panel-default">
+                                    <div class="panel-collapse collapse in" id="collapse-v4-One">
+                                        <div class="panel-body">
+                                            本期价格: <%= course.price%>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <!-- Tab Content 4 -->
+                    </div>
+                </div>
+                </div><!--/col-md-6-->
+                <!--End Tab v1-->
+                <!-- Blog Sidebar -->
+                <div class="col-md-3">
+                    <div class="headline-v2"><h2>最新课程</h2></div>
+                    <!-- Trending -->
+                    <ul class="list-unstyled blog-trending margin-bottom-50">
+                        <li>
+                            <h3><a href="#"><%= course.alias%>课程正在招生</a></h3>
+                            <small><%= course.period %></small>
+                        </li>
+                    </ul>
+                    <!-- End Trending -->
+                    <div class="headline-v2"><h2>话题</h2></div>
+                    <!-- Tags v2 -->
+                    <ul class="list-inline tags-v2 margin-bottom-50">
+                        <% for(var i=0; i<course.hashtag.length; i++) {%>
+                        <li><a href="<%= course.hashtag[i].url%>" target="_blank">#<%= course.hashtag[i].name%>#</a></li>
+                        <%} %>
+                    </ul>
+                    <!-- End Tags v2 -->
+                </div>
+                <!-- End Blog Sidebar -->
+
+        </div>
+        <!-- End FAQ Content -->
+    </div><!--/container-->
+
+    <!-- JS Global Compulsory -->
+    <script type="text/javascript" src="/static/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/plugins/jquery/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script type="text/javascript" src="/static/js/plugins/revolution-slider.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            CourseRevolutionSlider.initHalfRSfullScreen();
+        });
+    </script>

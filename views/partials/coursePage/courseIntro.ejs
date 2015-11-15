@@ -1,0 +1,56 @@
+<section id="intro" class="course-intro-section">
+       <div class="fullscreenbanner-container">
+           <div class="fullscreenbanner">
+               <ul>
+                   <!-- SLIDE 1 -->
+                   <li data-transition="curtain-1" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                       <!-- MAIN IMAGE -->
+                       <img src="<%= course.picture %>" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                       <!-- LAYERS -->
+                       <div class="tp-caption rs-caption-1 sft start"
+                           data-x="center"
+                           data-hoffset="0"
+                           data-y="100"
+                           data-speed="800"
+                           data-start="10"
+                           data-easing="Back.easeInOut"
+                           data-endspeed="300">
+                           <%= course.name %>
+                       </div>
+                       <!-- LAYER -->
+                       <div class="tp-caption rs-caption-2 sft"
+                           data-x="center"
+                           data-hoffset="0"
+                           data-y="200"
+                           data-speed="1000"
+                           data-start="10"
+                           data-easing="Power4.easeOut"
+                           data-endspeed="300"
+                           data-endeasing="Power1.easeIn"
+                           data-captionhidden="off"
+                           style="z-index: 6">
+                           <%= course.brief %><br>
+                           Thirsty For Thirty
+                       </div>
+                       <!-- LAYER -->
+                       <div class="tp-caption rs-caption-3 sft"
+                               data-x="center"
+                               data-hoffset="0"
+                               data-y="360"
+                               data-speed="1000"
+                               data-start="100"
+                               data-easing="Power4.easeOut"
+                               data-endspeed="300"
+                               data-endeasing="Power1.easeIn"
+                               data-captionhidden="off"
+                               style="z-index: 6">
+                              <span class="page-scroll"><a href=<%= course.enrollurl %>  class="btn-u btn-brd btn-brd-hover btn-u-light">我要报名</a></span>
+                       </div>
+                   </li>
+
+               </ul>
+               <div class="tp-bannertimer tp-bottom"></div>
+               <div class="tp-dottedoverlay twoxtwo"></div>
+           </div>
+       </div>
+   </section>

@@ -1,0 +1,26 @@
+<section id="team" class="about-section section-first">
+                <div class="team-v1 bg-grey content-lg">
+                    <div class="container">
+                        <div class="title-v1">
+                            <h2>我们的团队</h2>
+                        </div>
+                        <ul class="list-unstyled row">
+                            <% for(var i=0; i<lecturers.length; i++) {%>
+                                <li class="col-sm-3 col-xs-6 md-margin-bottom-30">
+                                    <div class="team-img">
+                                        <img class="img-responsive" src="<%= lecturers[i].picture %>"" alt="/static/img/team/img5-md.jpg" width="275" height="275">
+                                        <!-- <ul>
+                                            <li><a href="#"><i class="icon-custom icon-sm rounded-x fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="icon-custom icon-sm rounded-x fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="icon-custom icon-sm rounded-x fa fa-google-plus"></i></a></li>
+                                        </ul> -->
+                                    </div>
+                                    <h3><%= lecturers[i].name %></h3>
+                                    <p><%= lecturers[i].description %></p>
+                                </li>
+                            <%} %>
+                        </ul>
+                    </div>
+                </div>
+
+    </section>
