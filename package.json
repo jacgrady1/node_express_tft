@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "grunt build; node ./bin/www",
+    "dev": "grunt build; node ./bin/www & grunt watch",
     "build": "grunt build",
     "start": "node ./bin/www"
   },

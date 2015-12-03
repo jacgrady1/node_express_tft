@@ -1,6 +1,19 @@
 var mozjpeg = require('imagemin-mozjpeg');
 module.exports = function(grunt) {
     grunt.initConfig({
+        watch: {
+            options: {
+                livereload: true,
+            },
+            css: {
+                files: ['public/static/css/*.css'],
+                tasks: ['cssmin'],
+            },
+            js: {
+                files:['public/static/javascripts/*.js','public/static/javascripts_page/*.js'],
+                tasks: ['uglify'],
+            }
+        },
         imagemin: { // Task
 
             dynamic: { // Another target
@@ -13,19 +26,19 @@ module.exports = function(grunt) {
             }
         },
         clean: ["public/static/css-dist/*.css", "public/static/javascripts-dist/*.js"],
-        concat: { // not using here 
+        concat: { // not using here
             options: {
                 separator: ';',
             },
             basics: {
-                src: ['public/static/javascripts/*.js','public/static/javascripts_page/*js'],
+                src: ['public/static/javascripts/*.js', 'public/static/javascripts_page/*js'],
                 dest: 'public/static/javascripts-dist/concat.min.js',
             },
         },
         uglify: {
             my_target: {
                 files: {
-                    'public/static/javascripts-dist/bundle.min.js': ['public/static/javascripts/*.js','public/static/javascripts_page/*js']
+                    'public/static/javascripts-dist/bundle.min.js': ['public/static/javascripts/*.js', 'public/static/javascripts_page/*js']
                 }
             }
         },
@@ -39,16 +52,8 @@ module.exports = function(grunt) {
                     'public/static/css-dist/bundle.min.css': ['public/static/css/*.css']
                 }
             }
-        },
-        watch: {
-            options: {
-                livereload: true,
-            },
-            css: {
-                files: ['public/static/css/*.css'],
-                tasks: ['compass'],
-            },
-        },
+        }
+
 
     });
     grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -58,5 +63,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-    grunt.registerTask('build', ['clean', 'cssmin', 'uglify','imagemin']);
+    grunt.registerTask('build', ['clean', 'cssmin', 'uglify', 'imagemin']);
+
 };
