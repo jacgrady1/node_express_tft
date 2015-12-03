@@ -4,7 +4,7 @@
             "name": "TFT口语锻造小组",
             "brief": "十天终极口语提升方案",
             "time": "开课时间",
-            "picture": "/images/slider_speaking.jpg",
+            "picture": "/images-dist/slider_speaking.jpg",
             "enrollurl": "http://mp.weixin.qq.com/s?__biz=MzA4NjI5MzUwOQ==&mid=400384125&idx=1&sn=b0243d6df25f4367988a8d612a4087fc&scene=18#rd",
             "description": "这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组",
             "lectures": ["什么是口语能力", "如何提高口语能力", "为什么总是读不对", "为什么读不快", "笔记要不要记", "考试的时候总是谎怎么办"],
@@ -12,12 +12,12 @@
                 "id": "1",
                 "name": "刘功勋",
                 "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-                "picture": "/images/teachers/lgx.jpg"
+                "picture": "/images-dist/lgx.jpg"
             }, {
                 "id": "2",
                 "name": "丁文毓",
                 "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-                "picture": "/images/teachers/lgx2.jpeg"
+                "picture": "/images-dist/lgx2.jpg"
             }],
             "questions": [{
                 "id": "1",
@@ -39,7 +39,7 @@
             "name": "TFT听力锻造小组",
             "brief": "十天终极听力提升方案",
             "time": "开课时间",
-            "picture": "/images/slider_listening.jpg",
+            "picture": "/images-dist/slider_listening.jpg",
             "enrollurl": "http://mp.weixin.qq.com/s?__biz=MzA4NjI5MzUwOQ==&mid=400384125&idx=1&sn=b0243d6df25f4367988a8d612a4087fc&scene=18#rd",
             "description": "这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组",
             "lectures": ["什么是听力能力", "如何提高口语能力", "为什么总是读不对", "为什么读不快", "笔记要不要记", "考试的时候总是谎怎么办"],
@@ -47,12 +47,12 @@
                 "id": "1",
                 "name": "刘功勋",
                 "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-                "picture": "/images/teachers/lgx.jpg"
+                "picture": "/images-dist/lgx.jpg"
             }, {
                 "id": "2",
                 "name": "丁文毓",
                 "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-                "picture": "/images/teachers/lgx2.jpeg"
+                "picture": "/images-dist/lgx2.jpg"
             }],
             "questions": [{
                 "id": "1",
@@ -74,7 +74,7 @@
             "name": "TFT阅读锻造小组",
             "brief": "十天终极阅读提升方案",
             "time": "开课时间",
-            "picture": "/images/slider_reading.jpg",
+            "picture": "/images-dist/slider_reading.jpg",
             "enrollurl": "www.nba.com",
             "description": "这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组",
             "lectures": ["什么是口语能力", "如何提高口语能力", "为什么总是读不对", "为什么读不快", "笔记要不要记", "考试的时候总是谎怎么办"],
@@ -82,12 +82,12 @@
                 "id": "1",
                 "name": "刘功勋",
                 "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-                "picture": "/images/teachers/lgx.jpg"
+                "picture": "/images-dist/lgx.jpg"
             }, {
                 "id": "2",
                 "name": "丁文毓",
                 "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-                "picture": "/images/teachers/lgx2.jpeg"
+                "picture": "/images-dist/lgx2.jpg"
             }],
             "questions": [{
                 "id": "1",
@@ -109,7 +109,7 @@
             "name": "TFT写作锻造小组",
             "brief": "十天终极写作提升方案",
             "time": "开课时间",
-            "picture": "/images/slider_writing.jpg",
+            "picture": "/images-dist/slider_writing.jpg",
             "enrollurl": "www.nba.com",
             "description": "这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组这是一个很好很好的小组",
             "lectures": ["什么是口语能力", "如何提高口语能力", "为什么总是读不对", "为什么读不快", "笔记要不要记", "考试的时候总是谎怎么办"],
@@ -117,12 +117,12 @@
                 "id": "1",
                 "name": "刘功勋",
                 "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-                "picture": "/images/teachers/lgx.jpg"
+                "picture": "/images-dist/lgx.jpg"
             }, {
                 "id": "2",
                 "name": "丁文毓",
                 "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-                "picture": "/images/teachers/lgx2.jpeg"
+                "picture": "/images-dist/lgx2.jpg"
             }],
             "questions": [{
                 "id": "1",
@@ -161,21 +161,21 @@
         "id": "1",
         "name": "刘功勋",
         "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-        "picture": "/images/teachers/lgx2.jpeg"
+        "picture": "/images-dist/lgx2.jpg"
     }, {
         "id": "2",
         "name": "丁文毓",
         "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-        "picture": "/images/teachers/lgx2.jpeg"
+        "picture": "/images-dist/lgx2.jpg"
     }, {
         "id": "3",
         "name": "董恬",
         "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-        "picture": "/images/teachers/lgx2.jpeg"
+        "picture": "/images-dist/lgx2.jpg"
     }, {
         "id": "4",
         "name": "刘梦",
         "description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-        "picture": "/images/teachers/lgx2.jpeg"
+        "picture": "/images-dist/lgx2.jpg"
     }]
 }

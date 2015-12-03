@@ -17,10 +17,10 @@ var App = function () {
 
         /*Tooltips*/
         jQuery('.tooltips').tooltip();
-        jQuery('.tooltips-show').tooltip('show');      
-        jQuery('.tooltips-hide').tooltip('hide');       
-        jQuery('.tooltips-toggle').tooltip('toggle');       
-        jQuery('.tooltips-destroy').tooltip('destroy');       
+        jQuery('.tooltips-show').tooltip('show');
+        jQuery('.tooltips-hide').tooltip('hide');
+        jQuery('.tooltips-toggle').tooltip('toggle');
+        jQuery('.tooltips-destroy').tooltip('destroy');
 
         /*Popovers*/
         jQuery('.popovers').popover();
@@ -58,10 +58,10 @@ var App = function () {
     }
 
     //Scan Bar code (Header)
-    function handleBarCode() {    
+    function handleBarCode() {
         jQuery('.scan-btn').click(function() {
             $('.barcode-img').toggle(500);
-        }); 
+        });
     }
 
     return {
@@ -87,6 +87,3 @@ var App = function () {
     };
 
 }();
-
-
-
