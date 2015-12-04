@@ -32,3 +32,8 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# exclude build files
+public/images-dist
+public/static/css-dist
+public/static/javascripts-dist
