@@ -25,7 +25,9 @@ module.exports = function(grunt) {
                 }]
             }
         },
-        clean: ["public/static/css-dist/*.css", "public/static/javascripts-dist/*.js"],
+        clean: ["public/static/css-dist/*.css",
+                "public/static/javascripts-dist/*.js",
+                "public/images-dist/**.*"],
         concat: { // not using here
             options: {
                 separator: ';',
