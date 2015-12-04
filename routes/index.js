@@ -1,13 +1,5 @@
 var express = require('express');
 var router = express.Router();
-// var fs = require('fs');
-// fs.readFile('./data.json', function(err,data){
-//     if(err) {
-//         throw err;
-//     }
-//     console.log(data);
-//
-// })
 
 var data = require('../data/data.json');
 var courses = data.courses;
