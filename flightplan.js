@@ -33,8 +33,8 @@ plan.target('production', [
 // run commands on localhost
 plan.local(function(local) {
   // uncomment these if you need to run a build on your machine first
-  // local.log('Run build');
-  // local.exec('gulp build');
+  local.log('Run build');
+  local.exec('grunt build');
 
   local.log('Copy files to remote hosts');
   var filesToCopy = local.exec('git ls-files', {silent: true});
@@ -51,8 +51,8 @@ plan.remote(function(remote) {
   remote.log('Install dependencies');
   remote.sudo('npm --production --prefix ~/' + tmpDir + ' install ~/' + tmpDir, {user: username});
 
-  remote.log('Build dev dependencies');
-  remote.sudo('npm --production --prefix ~/' + tmpDir + ' build ~/' + tmpDir, {user: username});
+  // remote.log('Build dev dependencies');
+  // remote.sudo('npm run --production --prefix ~/' + tmpDir + ' build ~/' + tmpDir, {user: username});
 
 
   remote.log('Reload application');
