@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title> <%= title %> </title>
+    <% include ./partials/head %>
+
+</head>
+
+<!--
+The #page-top ID is part of the scrolling feature.
+The data-spy and data-target are part of the built-in Bootstrap scrollspy function.
+-->
+<body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
+    <!--=== Header ===-->
+    <% include ./partials/header%>
+    <!--=== End Header ===-->
+
+
+    <!-- Intro Section -->
+    <% include ./partials/intro%>
+    <!-- End Intro Section -->
+
+
+    <!-- Services Section -->
+    <% include ./partials/service%>
+    <!-- End Services Section -->
+
+    <!--  Features Section -->
+    <% include ./partials/features%>
+    <!--  End of Features Section -->
+
+    <!-- Team Section -->
+    <% include ./partials/team%>
+    <!--  End of Team Section -->
+
+    <!-- Barcode Section -->
+    <% include ./partials/barcode%>
+    <!--  End of Barcode Section -->
+
+    <% include ./partials/footer%>
+
+</body>
+</html>
