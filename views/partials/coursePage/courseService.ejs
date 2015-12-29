@@ -20,26 +20,22 @@
                                 <div class="panel panel-default">
                                     <div class="tag-box tag-box-v3">
                                         <div class="heading heading-v1">
-                                            <h2><%= course.name %></h2>
+                                            <h2 class="heading-v1"><%= course.name %></h2>
                                             <p><%= course.description %></p>
                                         </div>
 
                                         <div class="row margin-bottom-40">
-
-
-
-
                                         <hr class="devider devider-db-dotted">
                                             <div class="row">
                                                     <div class="col-md-2 col-md-offset-1">
-                                                         <p><span class="dropcap dropcap-bg rounded bg-color-dark">提纲</span></p>
+                                                         <img class="img-responsive" src="<%= course.poster %>" alt="" style="width: 215px; height: 215px; max-height:215px; max-width:215px;">
                                                     </div>
-                                                    <div class="col-md-8">
+                                                    <div class="col-md-7 col-md-offset-2">
                                                         <!-- <h2>{{lecture.name}}</h2> -->
 
                                                         <ul class="list-unstyled">
                                                             <% for(var i=0; i<course.lectures.length; i++) {%>
-                                                            <li><i class="fa fa-check color-green"></i> <%= course.lectures[i] %></li>
+                                                            <li><i class="fa fa-check color-green margin-bottom-15"></i> <%= course.lectures[i] %></li>
                                                              <%} %>
                                                         </ul>
                                                     </div>

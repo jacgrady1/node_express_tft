@@ -3,40 +3,17 @@
 			"id": "1",
 			"name": "TFT口语锻造小组",
 			"brief": "十天终极口语提升方案",
+			"banner": "最新一期1月11日开课",
 			"time": "开课时间",
 			"picture": "/images-dist/slider_speaking.jpg",
+			"poster": "/images-dist/poster_speaking.jpg",
 			"enrollurl": "http://mp.weixin.qq.com/s?__biz=MzA4NjI5MzUwOQ==&mid=400384125&idx=1&sn=b0243d6df25f4367988a8d612a4087fc&scene=18#rd",
 			"description": "口语小组采用专属口语素材+满分教师授课+母语教练反馈+残酷淘汰机制的闭环模式，打造一个充实、有趣、纯粹的口语学习体验",
-			"lectures": ["什么是口语能力", "如何提高口语能力", "为什么总是读不对", "为什么读不快", "笔记要不要记", "考试的时候总是慌怎么办"],
+			"lectures": ["理解托福口语（Toefl&Speaking）", "发音基础（Pronunciation）", "语音现象（Liaisons）", "美语语调（Intonation）", "题型答法（Tasks）", "备考建议（Test Wiseness)"],
 			"teachers": [{
 				"id": "1",
 				"name": "刘功勋(lecturer)",
 				"description": "现就职于硅谷某大型互联网公司 曾任北京新东方托福口语教师 托福口语满分 爱好打码 讲课 致力于利用一切技术手段改善教育体验",
-				"picture": "/images-dist/lgx.jpg"
-			}, {
-				"id": "2",
-				"name": "方堃杨(coach)",
-				"description": "耶鲁大学人类学硕士 多伦多大学本科 某大型对外事业单位北京总部工作 兼职某机构托福口语教师 喜欢钢琴和欢喜（一只超萌的小泰迪~）",
-				"picture": "/images-dist/lgx.jpg"
-			}, {
-				"id": "3",
-				"name": "王祎婷(coach)(加拿大籍)",
-				"description": "牛津大学药理硕士 多伦多大学法医生物双学位 15岁到加拿大 多伦多Credit Valley Hospital实习研究员 爱好讲课水粉画烧得一手好菜（自制煎饼果子小意思~）",
-				"picture": "/images-dist/lgx.jpg"
-			}, {
-				"id": "4",
-				"name": "Claire Paduano(coach)(美籍)",
-				"description": "康奈尔大学本科 匹兹堡大学医学院（全美最好的医学院之一哟~）在读 热衷于语言学习和教育（中文大概跟你的英文水平差不多吧~） ",
-				"picture": "/images-dist/lgx.jpg"
-			}, {
-				"id": "5",
-				"name": "Liz （coach）（美籍）",
-				"description": "Claire的姐妹花~ 康奈尔大学本科 匹兹堡大学医学院在读 同样热衷于语言学习和教育 尤其擅长发现各种中式英语~  ",
-				"picture": "/images-dist/lgx.jpg"
-			}, {
-				"id": "6",
-				"name": "刘昱（coach）：",
-				"description": "卡耐基梅隆统计和机器学习本科在读 15岁获全额奖学金赴新加坡读高中 自学SAT2370 喜欢与小伙伴们交流学习生活体验 行走中会不知不觉high起歌来^.^ ",
 				"picture": "/images-dist/lgx.jpg"
 			}],
 			"questions": [{
@@ -100,22 +77,19 @@
 			"id": "2",
 			"name": "TFT听力锻造小组",
 			"brief": "十天终极听力提升方案",
+			"banner": "最新一期1月11日开课",
 			"time": "开课时间",
+			"poster": "/images-dist/poster_listening.jpg",
 			"picture": "/images-dist/slider_listening.jpg",
 			"enrollurl": "http://mp.weixin.qq.com/s?__biz=MzA4NjI5MzUwOQ==&mid=400817625&idx=3&sn=9f662e54f079f8b3878218150ad94fc4#rd",
-			"description": "听力小组采用核心考点精讲 真题段落深入分析 笔记示范跟练 补充材料夯实 实时互动答疑点评的形式，打造谁用谁知道，一试忘不了的托福听力学习体验。",
-			"lectures": ["托福听力本质 （TOEFL&Listening）”,“考点规律 （Pattern）”,“笔记要点 (Note-taking)”,“日常修炼方法 (Practice)“,“高分要领 (Top Skills)", "考场要点 (Tips)"],
+			"description": "听力小组采用核心考点精讲+真题段落深入分析+笔记示范跟练+补充材料夯实+实时互动答疑点评的模式，打造独特托福听力学习体验。",
+			"lectures": ["托福听力本质 （TOEFL&Listening）","考点规律（Pattern）","笔记要点 (Note-taking)","日常修炼方法 (Practice)","高分要领 (Top Skills)", "考场要点 (Tips)"],
 
 			"teachers": [{
 				"id": "1",
 				"name": "丁文毓",
 				"description": "北京大学英汉翻译硕士 曾任北大翻译协会会长 北京新东方托福听力、 阅读、 写作 SAT阅读、写作教师，五年小班及VIP授课经验。学生多人托福单科满分，总分110+ 爱好钻研语言培训及学前教育。",
-				"picture": "/images-dist/lgx.jpg"
-			}, {
-				"id": "2",
-				"name": "曹蕾 （ Course Assistant )",
-				"description": "香港理工大学对外汉语硕士在读，专注第二语言习得应用及研究。丰富的第二语言教学经验， 热衷于语言教育学习。喜欢和各种各样的学生一起勾兑学习好方法，你的目标，就是我的追求～",
-				"picture": "/images-dist/lgx.jpg"
+				"picture": "/images-dist/dwy.jpg"
 			}],
 			"questions": [{
 					"id": "1",
@@ -153,7 +127,9 @@
 			"id": "3",
 			"name": "TFT阅读锻造小组",
 			"brief": "十天终极阅读提升方案",
+			"banner": "最新一期1月21日开课",
 			"time": "开课时间",
+			"poster": "/images-dist/poster_reading.jpg",
 			"picture": "/images-dist/slider_reading.jpg",
 			"enrollurl": "http://mp.weixin.qq.com/s?__biz=MzA4NjI5MzUwOQ==&mid=212533480&idx=1&sn=9b0d636a0d9dc987c1c19a70d5f5721c&scene=18#wechat_redirect",
 			"description": "注重逻辑与思维训练，将多年总结的真题出题规律及思路与学生个体思维特点相结合，有针对性的进行高强度的核心考点透析+真题操练+补充材料练习，打造实用、高效、成长、满足的托福阅读学习体验，适合目标成绩26-30分的学生。",
@@ -162,7 +138,7 @@
 				"id": "1",
 				"name": "董恬",
 				"description": "中国传媒大学国际新闻传播硕士，托福118分，托福、SAT阅读资深名师。自2009年起担任托福阅读、SAT阅读教师，课程教研员，半数以上学生获得托福阅读25+、SAT高分。",
-				"picture": "/images-dist/lgx.jpg"
+				"picture": "/images-dist/dt.jpg"
 			}],
 			"questions": [{
 				"id": "1",
@@ -231,7 +207,9 @@
 			"id": "4",
 			"name": "TFT写作锻造小组",
 			"brief": "十天终极写作提升方案",
+			"banner": "最新一期1月21日开课",
 			"time": "1月21日-1月29日（周六、日不上课）20:00-21:30",
+			"poster": "/images-dist/poster_writing.jpg",
 			"picture": "/images-dist/slider_writing.jpg",
 			"enrollurl": "http://mp.weixin.qq.com/s?__biz=MzA4NjI5MzUwOQ==&mid=212533480&idx=1&sn=9b0d636a0d9dc987c1c19a70d5f5721c&scene=18#wechat_redirect",
 			"description": "从题目分析出发，到主题句的遣词造句，主体段落的展开论述，乃至学生普遍痛点之让步段写作，从思路框架到逻辑细节对写作进行全方位解析，手把手教会学生如何写作。",
@@ -240,11 +218,6 @@
 				"id": "1",
 				"name": "刘梦",
 				"description": "中国人民大学英语专业英美文学方向硕士，科班出身，09年托福首战即获得114分。教学经验丰富，托福教龄已五年有余。读书期间即加入北京新东方工作，先后担任托福及SAT教研组长一职，学生多人托福单科满分，提分幅度均领跑所在项目。现就职于北京外国语大学国际商学院，英语教育为职业兴趣所在。",
-				"picture": "/images-dist/lgx.jpg"
-			}, {
-				"id": "2",
-				"name": "刘晓雨",
-				"description": "美国哥伦比亚大学电子工程系硕士，毕业后后就职于高盛集团纽约总部。曾在北京新东方学校担任托福口语、写作讲师及阅读讲师 ，学生多人托福单科满分，总分110+；曾在Unicareer担任Mentor及校园行宣讲师。",
 				"picture": "/images-dist/lgx.jpg"
 			}],
 			"questions": [{
@@ -366,12 +339,12 @@
 		"id": "2",
 		"name": "丁文毓",
 		"description": "北京大学英汉翻译硕士 曾任北大翻译协会会长 北京新东方托福听力、阅读、写作、SAT阅读、写作教师，五年小班及VIP授课经验。学生多人托福单科满分，总分110+ 爱好钻研语言培训及学前教育",
-		"picture": "/images-dist/lgx.jpg"
+		"picture": "/images-dist/dwy.jpg"
 	}, {
 		"id": "3",
 		"name": "董恬",
 		"description": "资深TOEFL、SAT阅读教师 教龄5年＋ 托福总分118 学生多人单科满分（阅读考不到25分也许会被虐哭）狂热肌肉爱好者",
-		"picture": "/images-dist/lgx.jpg"
+		"picture": "/images-dist/dt.jpg"
 	}, {
 		"id": "4",
 		"name": "刘梦",
