@@ -1,6 +1,6 @@
 # node_express_tft
 
 #To install all dependencies
-npm install 
+-npm install 
 #To run the site
-npm run dev
+-npm run dev
