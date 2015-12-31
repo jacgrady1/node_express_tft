@@ -1,6 +1,16 @@
 # node_express_tft
 
-#To install all dependencies
--npm install 
-#To run the site
--npm run dev
+1. Clone the project
+   ```sh
+   git clone 
+    ```
+2. Intall Dependencies
+
+    ```sh
+   npm install
+    ```
+    
+3. run the project
+   ```sh
+   npm run dev
+    ```
