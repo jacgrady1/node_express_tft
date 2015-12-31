@@ -15,3 +15,8 @@
    ```sh
    npm run dev
     ```
+4. go to your browser and type in
+   
+   ```sh
+   http://127.0.0.1:3000
+    ```
