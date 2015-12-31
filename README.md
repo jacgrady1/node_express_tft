@@ -2,9 +2,9 @@
 
 1. Clone the project
    ```sh
-   git clone 
+   git clone https://github.com/jacgrady1/node_express_tft.git 
     ```
-2. Intall Dependencies
+2. cd into node_express_tft folder && Intall Dependencies
 
     ```sh
    npm install
